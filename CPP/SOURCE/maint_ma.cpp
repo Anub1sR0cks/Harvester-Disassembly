@@ -1,3 +1,5 @@
+#include "convutil.hpp"
+
 int talk_to_MAINTENANCE_MAN()
 {
     if (check_script_flag("MAINTENANCE_MAN_FOURTH_CONVERSATION")) {
