@@ -1,3 +1,5 @@
+#include "dialog.hpp"
+
 int talk_to_LODGE_CHEF()
 {
     // "Well, I hope you're proud of yourself, killing my clientele..."

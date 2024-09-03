@@ -1,3 +1,5 @@
+#include "dialog.hpp"
+
 int talk_to_CURATOR()
 {
     // "Welcome to the Harvest Moon Art Gallery, sir.  I'm the Curator of this place.  So delighted you could come."
