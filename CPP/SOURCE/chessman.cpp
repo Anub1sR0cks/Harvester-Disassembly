@@ -24,7 +24,7 @@ int talk_to_CHESSMASTER()
 
                 KillNpc("CHESSMASTER", "SLASH");
 
-                return 0;
+                break;
             }
 
         // 2. No...
@@ -35,8 +35,6 @@ int talk_to_CHESSMASTER()
             execute_command("ADD_CHESS_KING_MONSTER");
 
             play_fvi("graphic\\fst\\kinggrow.fst", 0);
-
-            break;
     }
 
     return 0;
