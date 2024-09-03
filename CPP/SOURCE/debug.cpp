@@ -1,6 +1,8 @@
 #include <cstdio>
 #include <cstdlib>
 
+#include "vesamode.hpp"
+
 char log_buffer[256];
 char debug_malloc_buffer[4];
 

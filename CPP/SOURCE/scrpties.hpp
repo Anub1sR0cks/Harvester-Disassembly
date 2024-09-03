@@ -7,3 +7,5 @@ struct flag_list_t {
 };
 
 extern flag_list_t *flag_list;
+
+void execute_command(const char *command);

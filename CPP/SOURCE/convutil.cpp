@@ -4,6 +4,16 @@
 #include "debug.hpp"
 #include "scrpties.hpp"
 
+void play_wav(int id, const char *name, int face)
+{
+
+}
+
+int get_response()
+{
+    return 0;
+}
+
 int check_script_flag(const char *name)
 {
     if (name) {
@@ -35,4 +45,14 @@ void set_script_flag(const char *name, int flag)
             sprintf(log_buffer, "SCRIPT WARNING: flag %s not found", name);
         }
     }
+}
+
+void KillNpc(const char *name, const char *type)
+{
+
+}
+
+void ExecuteCommand(const char *command)
+{
+    if (command != NULL) { execute_command(command); }
 }

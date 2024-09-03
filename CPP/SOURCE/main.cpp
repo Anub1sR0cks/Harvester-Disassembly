@@ -2,6 +2,7 @@
 #include <cstdlib>
 
 #include "debug.hpp"
+#include "xfile.hpp"
 
 int _argc;
 char **_argv;

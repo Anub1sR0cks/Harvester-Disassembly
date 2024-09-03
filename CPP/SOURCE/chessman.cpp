@@ -1,5 +1,8 @@
 #include "convutil.hpp"
 #include "dialog.hpp"
+#include "harvester.hpp"
+#include "puzzles.hpp"
+#include "scrpties.hpp"
 
 int talk_to_CHESSMASTER()
 {
